@@ -1,26 +1,26 @@
 .formikForm {
-    border: 1px solid #999;
-    border-radius: 6px;
-    padding: 16px;
-    margin-bottom: 24px;
-    background-color: #f8f8f8;
+    border: 1px solid #c2c2c2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .formikForm div {
-    margin-bottom: 12px;
-}
-
-.formikForm label {
-    display: block;
-    margin-bottom: 4px;
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .formikForm input {
-    width: 100%;
-    padding: 6px;
-    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
     border-radius: 4px;
+    border: 1px solid #ccc;
+    max-width: 300px;
 }
 
 .formikForm span {
@@ -29,11 +29,16 @@
 }
 
 .formikForm button {
-    margin-top: 8px;
-    padding: 8px 12px;
-    background-color: #eee;
-    border: 1px solid #aaa;
+    align-self: center;
+    padding: 8px 16px;
+    font-size: 14px;
     border-radius: 4px;
+    background-color: #f5f5f5;
+    border: 1px solid #aaa;
     cursor: pointer;
-    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.formikForm button:hover {
+    background-color: #e3e3e3;
 }

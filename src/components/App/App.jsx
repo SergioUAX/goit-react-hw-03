@@ -1,7 +1,7 @@
 import styles from './App.module.css';
-import ContactList from './components/ContactList/ContactList';
-import ContactForm from './components/ContactForm/ContactForm';
-import SearchBox from './components/SearchBox/SearchBox';
+import ContactList from '../ContactList/ContactList';
+import ContactForm from '../ContactForm/ContactForm';
+import SearchBox from '../SearchBox/SearchBox';
 import { useState, useEffect } from 'react';
 
 const initialData = [
@@ -52,4 +52,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
