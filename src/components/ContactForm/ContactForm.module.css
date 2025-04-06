@@ -1,0 +1,39 @@
+.formikForm {
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 24px;
+    background-color: #f8f8f8;
+}
+
+.formikForm div {
+    margin-bottom: 12px;
+}
+
+.formikForm label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.formikForm input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formikForm span {
+    color: red;
+    font-size: 12px;
+}
+
+.formikForm button {
+    margin-top: 8px;
+    padding: 8px 12px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
